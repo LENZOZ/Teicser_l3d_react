@@ -205,7 +205,7 @@ export default function DataLake() {
 
 	const handleChange = (rowIndex: number, key: string, value: any) => {
 		setTableData((prevData) => {
-			const newData = [...prevData]; //ss
+			const newData = [...prevData]; //sss
 			newData[rowIndex][key] = value;
 			return newData;
 		});
